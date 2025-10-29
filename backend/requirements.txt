@@ -1,0 +1,8 @@
+fastapi[all]
+pydantic
+google-genai # For Gemini API
+requests     # For basic website crawling/fetching
+beautifulsoup4 # For parsing HTML
+reportlab    # For PDF generation
+python-multipart # For file uploads (if needed later)
+python-dotenv
