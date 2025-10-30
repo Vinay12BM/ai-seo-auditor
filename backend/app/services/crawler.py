@@ -3,7 +3,7 @@
 import requests
 from bs4 import BeautifulSoup
 from urllib.parse import urlparse
-from seo_scorer import SEOScorer # Remove the leading dot
+from .seo_scorer import SEOScorer # Add the leading dot back
 import time
 import re
 from collections import Counter
