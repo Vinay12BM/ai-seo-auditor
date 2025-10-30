@@ -2,7 +2,7 @@
 
 import requests
 from bs4 import BeautifulSoup
-from crawler import detect_platform # Import the function from crawler.py
+from .crawler import detect_platform # Import from crawler.py within the same directory/package
 from typing import Dict, Any # For type hinting
 
 # Define a requests session with a user agent (important for some sites)
